@@ -13,7 +13,8 @@ export default function () {
 
     return (
         <div className='bg-bannerbg px-6 sm:pl-8 lg:pl-16 xl:pl-64 xl:pr-64 p-6' id='timelineId'>
-            <div className='h-28 w-32 hidden sm:block'>
+            {/* <div className='h-28 w-32 hidden sm:block'> */}
+            <div className='h-28 w-32 hidden '>
                 <ProfileBlob />
             </div>
             <div className='md:ml-56 md:mr-32 ' id='timeline_id'>
