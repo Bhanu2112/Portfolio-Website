@@ -1,0 +1,71 @@
+{
+    "work experience": [
+      {
+        "role_company": "project engineer at wipro",
+        "start_month_year": "Sep 2022",
+        "end_date": "present",
+        "projects": [
+          {
+            "project_title": "ci-rewrite tibco project to spring boot for citi",
+            "project_description": "involved in ci-rewrite project for citi, migrating tibco project to spring boot project worked in agile developement, focusing on user story creation, rest api developement, and ci/cd deployement."
+          }
+        ]
+      }
+    ],
+    "certifications": [
+      {
+        "certification_title": "java full stack certification",
+        "certification_institute": "stackroute",
+        "skills": [
+          "Java",
+          "JavaScript",
+          "TypeScript",
+          "HTML",
+          "CSS",
+          "Spring Boot",
+          "Hibernate",
+          "Angular",
+          "MySQL",
+          "MongoDB",
+          "Git",
+          "Micro service Architecture"
+        ],
+        "certification_link": "http://localhost:3000/"
+      }
+    ],
+    "practice_projects": [
+      {
+        "project_title": "ecommerce web app",
+        "project_description": " developed full-stacke-commerce app with angular frontend,spring boot backend.Integrateduserauth, product catalog, cart, checkout, order tracking. designed ui, integrated with backend apis. ",
+        "tools_used": [],
+        "link": ""
+      },
+      {
+        "project_title": "blog app",
+        "project_description": "developed a blog app with angular, featuring content management module (cmm) for writing, categorizing, and publishing blogs. integrated comments, mailing services, and hosted on Firebase for seamless database management and hosting",
+        "tools_used": [],
+        "link": ""
+      },
+      {
+          "project_title": "movie app",
+          "project_description": "created a movie app using react.js, leveraging an external api to fetch data on currently playing, upcoming, and trending movies. Implemented a search function for users to easily find specific movies of interest.",
+          "tools_used": [],
+          "link": ""
+        },
+        {
+          "project_title": "exam portal",
+          "project_description": "created an exam portal with angular and spring boot,employing jwt authentication for security. utilized a microservices architecture for scalability. admins manage tests, while students access and complete them, viewing results afterward",
+          "tools_used": [],
+          "link": ""
+        }
+        
+  
+    ],
+    "education":[
+      {
+          "institute":"GMR Institute of Technology - june 2022",
+          "degree":"Bachelor of Technology in Mechanical Engineering - 8.11 "
+      }
+    ]
+  }
+  
