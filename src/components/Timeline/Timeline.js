@@ -4,12 +4,12 @@ import ProfileBlob from '../ProfileBlob'
 import Certification from '../cards/Certification'
 import PractiseProject from '../cards/PractiseProject'
 import Education from '../cards/Education'
-import data from '../Data/data.json'
+import  data from '../Data/data.json'
 
-export default function () {
+export default function Timeline() {
 
     const projects = data.practice_projects
-    console.log(projects);
+    
 
     return (
         <div className='bg-bannerbg px-6 sm:pl-8 lg:pl-16 xl:pl-64 xl:pr-64 p-6' id='timelineId'>
