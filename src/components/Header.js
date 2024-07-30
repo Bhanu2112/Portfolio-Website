@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Header() {
+  document.documentElement.classList.remove('dark')
   return (
     <>
 
