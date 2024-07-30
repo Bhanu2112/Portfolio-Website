@@ -10,12 +10,11 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className="">
- 
       <Header/>
       <AboutBanner/>
       <Summary/>
       <Timeline/>
-      <Contact/>
+      <Contact />
       
       <Footer/>
     </div>

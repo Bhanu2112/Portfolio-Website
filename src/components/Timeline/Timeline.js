@@ -12,14 +12,14 @@ export default function Timeline() {
     
 
     return (
-        <div className='bg-bannerbg px-6 sm:pl-8 lg:pl-16 xl:pl-64 xl:pr-64 p-6' id='timelineId'>
+        <div className=' px-6 sm:pl-8 lg:pl-16 xl:pl-64 xl:pr-64 p-6' id='timelineId'>
             {/* <div className='h-28 w-32 hidden sm:block'> */}
             <div className='h-28 w-32 hidden '>
                 <ProfileBlob />
             </div>
             <div className='md:ml-56 md:mr-32 ' id='timeline_id'>
                 <div>
-                    <span className='block mb-2'><p> work experience </p></span>
+                    <span className='block mb-2'><p> work </p></span>
                     <div className='mt-4 md:ml-10'>
                         <WorkExperiance />
                     </div>
@@ -54,6 +54,7 @@ export default function Timeline() {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }

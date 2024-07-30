@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.grid {
+  height: 16rem;
+  background-image:
+      linear-gradient(to right, rgb(203 213 225) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(203 213 225) 1px, transparent 1px);
+  background-size: 2.5rem 2.5rem;
+  background-position: center center;
+}
+body {
+  background-color: #aedfef;
+  background-image: linear-gradient(to right, #ccc 1px, transparent 1px), 
+                    linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 20px 20px; /* Adjust the size of the grid */
+}
+
+.contact{
+
+}
