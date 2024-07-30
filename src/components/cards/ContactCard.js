@@ -1,14 +1,13 @@
 import React from 'react'
 
-export default function 
-() {
-  return (
-    <div>
-        
-        <div className='flex items-center  justify-center rounded-[30px] p-5 flex bg-contactbg '>
+export default function ContactCard() {
+    return (
+        <div>
+
+            <div className='flex items-center  justify-center rounded-[30px] p-5 flex bg-contactbg '>
                 <form>
                     <div className='m-5 w-full md:w-[450px]'>
-                    <span className='block m-4'>
+                        <span className='block m-4'>
                             <p>contact me</p>
                         </span>
                         <span className='text-wrap block m-4'>
@@ -27,6 +26,6 @@ export default function
                     </div>
                 </form>
             </div>
-    </div>
-  )
+        </div>
+    )
 }
